@@ -1,0 +1,239 @@
+:root {
+  --primary-color: #ff3333;
+  --background-color: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-color: var(--background-color);
+}
+
+.main__container {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.main__title {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img__main {
+  width: 100px;
+  height: 100px;
+}
+
+.logo__main {
+  width: 30px;
+  height: 30px;
+}
+
+.hidden {
+  display: none !important;
+  transition: 0.3s linear;
+}
+
+.display__flex {
+  display: flex;
+}
+
+.display__flex--center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.display__flex--center-column {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.display__block {
+  display: block !important;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.main__btn {
+  height: 40px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.main__btn--animation {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.main__btn--animation:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* modal */
+.customer__modal {
+  position: fixed;
+  background-color: white;
+  min-width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 999;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* animation: faceIn linear 0.3s; */
+}
+
+.customer__modal--title {
+  font-size: 18px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.customer__modal--content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.customer__modal--content button {
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.customer__modal--content button:hover {
+  opacity: 0.9;
+}
+
+.customer__modal--hide:hover {
+  border: 1px solid #ccc;
+}
+
+.customer__modal--agree {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* @keyframes faceIn {
+  from {
+    top: -120px;
+  }
+  to {
+    top: 10px;
+  }
+} */
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+}
+
+.modal__overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Basic styling for the range input */
+input[type="range"] {
+  -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+  width: 300px; /* Set width */
+  height: 8px; /* Height of the track */
+  background: #ddd; /* Background color of the track */
+  border-radius: 5px; /* Round corners */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Styling the thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none; /* Remove default styling */
+  width: 20px; /* Width of the thumb */
+  height: 20px; /* Height of the thumb */
+  border-radius: 50%; /* Round thumb */
+  background: var(--primary-color); /* Thumb color */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px; /* Width of the thumb */
+  height: 20px; /* Height of the thumb */
+  border-radius: 50%; /* Round thumb */
+  background: var(--primary-color); /* Thumb color */
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "language": "Arabic (Egypt)",
+    "name": "Oda",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Arabic (Saudi Arabia)",
+    "name": "Salim",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Bulgarian",
+    "name": "Dimo",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Catalan",
+    "name": "Rut",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Chinese (China)",
+    "name": "Luli",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Chinese (China)",
+    "name": "Shu",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Chinese (China)",
+    "name": "Chow",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Chinese (China)",
+    "name": "Wang",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Chinese (Hong Kong)",
+    "name": "Jia",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Chinese (Hong Kong)",
+    "name": "Xia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Chinese (Hong Kong)",
+    "name": "Chen",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Chinese (Taiwan)",
+    "name": "Akemi",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Chinese (Taiwan)",
+    "name": "Lin",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Chinese (Taiwan)",
+    "name": "Lee",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Croatian",
+    "name": "Nikola",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Czech",
+    "name": "Josef",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Danish",
+    "name": "Freja",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Dutch (Belgium)",
+    "name": "Daan",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Dutch (Netherlands)",
+    "name": "Lotte",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Dutch (Netherlands)",
+    "name": "Bram",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (Australia)",
+    "name": "Zoe",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "English (Australia)",
+    "name": "Isla",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Australia)",
+    "name": "Evie",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Australia)",
+    "name": "Jack",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (Canada)",
+    "name": "Rose",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "English (Canada)",
+    "name": "Clara",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Canada)",
+    "name": "Emma",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Canada)",
+    "name": "Mason",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (Great Britain)",
+    "name": "Alice",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "English (Great Britain)",
+    "name": "Nancy",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Great Britain)",
+    "name": "Lily",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (Great Britain)",
+    "name": "Harry",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (India)",
+    "name": "Eka",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "English (India)",
+    "name": "Jai",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (India)",
+    "name": "Ajit",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (Ireland)",
+    "name": "Oran",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "English (United States)",
+    "name": "Linda",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "English (United States)",
+    "name": "Amy",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (United States)",
+    "name": "Mary",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "English (United States)",
+    "name": "John",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "English (United States)",
+    "name": "Mike",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Finnish",
+    "name": "Aada",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "French (Canada)",
+    "name": "Emile",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "French (Canada)",
+    "name": "Olivia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "French (Canada)",
+    "name": "Logan",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "French (Canada)",
+    "name": "Felix",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "French (France)",
+    "name": "Bette",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "French (France)",
+    "name": "Iva",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "French (France)",
+    "name": "Zola",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "French (France)",
+    "name": "Axel",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "French (Switzerland)",
+    "name": "Theo",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "German (Austria)",
+    "name": "Lukas",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "German (Germany)",
+    "name": "Hanna",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "German (Germany)",
+    "name": "Lina",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "German (Germany)",
+    "name": "Jonas",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "German (Switzerland)",
+    "name": "Tim",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Greek",
+    "name": "Neo",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Hebrew",
+    "name": "Rami",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Hindi",
+    "name": "Puja",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Hindi",
+    "name": "Kabir",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Hungarian",
+    "name": "Mate",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Indonesian",
+    "name": "Intan",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Italian",
+    "name": "Bria",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Italian",
+    "name": "Mia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Italian",
+    "name": "Pietro",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Japanese",
+    "name": "Hina",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Japanese",
+    "name": "Airi",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Japanese",
+    "name": "Fumi",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Japanese",
+    "name": "Akira",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Korean",
+    "name": "Nari",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Malay",
+    "name": "Aqil",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Norwegian",
+    "name": "Marte",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Norwegian",
+    "name": "Erik",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Polish",
+    "name": "Julia",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Polish",
+    "name": "Jan",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Portuguese (Brazil)",
+    "name": "Marcia",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Portuguese (Brazil)",
+    "name": "Ligia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Portuguese (Brazil)",
+    "name": "Yara",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Portuguese (Brazil)",
+    "name": "Dinis",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Portuguese (Portugal)",
+    "name": "Leonor",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Romanian",
+    "name": "Doru",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Russian",
+    "name": "Olga",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Russian",
+    "name": "Marina",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Russian",
+    "name": "Peter",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Slovak",
+    "name": "Beda",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Slovenian",
+    "name": "Vid",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "name": "Juana",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "name": "Silvia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "name": "Teresa",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Spanish (Mexico)",
+    "name": "Jose",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Spanish (Spain)",
+    "name": "Camila",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Spanish (Spain)",
+    "name": "Sofia",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Spanish (Spain)",
+    "name": "Luna",
+    "gender": "Female",
+    "default": false
+  },
+  {
+    "language": "Spanish (Spain)",
+    "name": "Diego",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Swedish",
+    "name": "Molly",
+    "gender": "Female",
+    "default": true
+  },
+  {
+    "language": "Swedish",
+    "name": "Hugo",
+    "gender": "Male",
+    "default": false
+  },
+  {
+    "language": "Tamil",
+    "name": "Sai",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Thai",
+    "name": "Ukrit",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Turkish",
+    "name": "Omer",
+    "gender": "Male",
+    "default": true
+  },
+  {
+    "language": "Vietnamese",
+    "name": "Chi",
+    "gender": "Male",
+    "default": true
+  }
+]
