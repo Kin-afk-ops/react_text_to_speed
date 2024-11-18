@@ -188,25 +188,45 @@ function App() {
           </button>
         </div>
       </div>
-
-      <div
-        className={voiceActive ? "audio active" : "audio"}
-        id="audioContainer"
-      >
-        <audio
-          className="audio__content"
-          id="audioPlayer"
-          ref={audioRef}
-          src={urlAudio}
-          controls
-        ></audio>
-        <a href={urlAudio} target="_blank">
-          <i
-            id="download-button"
-            className="audio__icon fa-solid fa-download"
-          ></i>
-        </a>
-      </div>
+      <div className="audio__wrapper">
+        <div
+          className={
+            voiceActive ? "icon__wrapper icon__active" : "icon__wrapper"
+          }
+          onClick={() => setVoiceActive(!voiceActive)}
+        >
+          {voiceActive ? (
+            <i className="fa-solid fa-chevron-down"></i>
+          ) : (
+            <i className="no__active fa-solid fa-chevron-up"></i>
+          )}
+        </div>
+        <div
+          className={voiceActive ? "audio active" : "audio"}
+          // className={"audio active"}
+          id="audioContainer"
+        >
+          {urlAudio ? (
+            <audio
+              className="audio__content"
+              id="audioPlayer"
+              ref={audioRef}
+              src={urlAudio}
+              controls
+            ></audio>
+          ) : (
+            <div className="audio__content">Hãy nhập gì đó để nghe</div>
+          )}
+          {urlAudio && (
+            <a href={urlAudio} target="_blank">
+              <i
+                id="download-button"
+                className="audio__icon fa-solid fa-download"
+              ></i>
+            </a>
+          )}
+        </div>
+      </div>{" "}
     </div>
   );
 }
